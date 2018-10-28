@@ -1,5 +1,5 @@
 {
-  "name": "html_blocks",
+  "name": "html-blocks",
   "version": "0.0.0",
   "description": "Extract an HTML element and its children from a string",
   "main": "index.js",

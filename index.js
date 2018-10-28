@@ -1,6 +1,7 @@
 const TAG_TYPE_REGEX = /<([^ >]*).*?>/;
 
-function extract(str, openingTag) {
+function extract(str, openingTag, startIndex) {
+  startIndex = startIndex || 0;
   const tagType = TAG_TYPE_REGEX.exec(openingTag)[1];
   if (!tagType) {
     throw new Error('openingTag argument does not seem to be an HTML opening tag');
@@ -8,7 +9,7 @@ function extract(str, openingTag) {
 
   const closingTag = `</${tagType}>`;
   const openingTagStart = `<${tagType}`;
-  const initialSearchIndex = str.indexOf(openingTag);
+  const initialSearchIndex = str.indexOf(openingTag, startIndex);
 
   if (initialSearchIndex === -1) {
     return undefined;
