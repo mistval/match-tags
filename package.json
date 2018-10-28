@@ -1,0 +1,30 @@
+{
+  "name": "html_blocks",
+  "version": "0.0.0",
+  "description": "Extract an HTML element and its children from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistval/html_blocks.git"
+  },
+  "keywords": [
+    "html",
+    "element",
+    "elements",
+    "block",
+    "blocks",
+    "string",
+    "extract",
+    "dom",
+    "parse"
+  ],
+  "author": "mistval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mistval/html_blocks/issues"
+  },
+  "homepage": "https://github.com/mistval/html_blocks#readme"
+}
