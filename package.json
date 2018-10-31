@@ -1,5 +1,5 @@
 {
-  "name": "html-blocks",
+  "name": "match-tags",
   "version": "0.0.0",
   "description": "Extract an HTML element and its children from a string",
   "main": "index.js",
@@ -11,6 +11,9 @@
     "url": "git+https://github.com/mistval/html_blocks.git"
   },
   "keywords": [
+    "match",
+    "tag",
+    "tags",
     "html",
     "element",
     "elements",
