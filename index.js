@@ -24,9 +24,9 @@ function extract(str, openingTag, startIndex) {
     const hasOpeningTag = openingTagIndex !== -1;
     const hasClosingTag = closingTagIndex !== -1;
 
-    // Tags aren't matched. Return everything past the opening tag.
+    // Tags aren't matched.
     if (!hasClosingTag) {
-      return str.substring(initialSearchIndex);
+      throw new Error('No closing tag');
     }
 
     if (!hasOpeningTag || closingTagIndex < openingTagIndex) {
