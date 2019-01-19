@@ -1,6 +1,6 @@
 {
   "name": "match-tags",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extract an HTML element and its children from a string",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mistval/html_blocks.git"
+    "url": "git+https://github.com/mistval/match-tags.git"
   },
   "keywords": [
     "match",
@@ -27,7 +27,7 @@
   "author": "mistval",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mistval/html_blocks/issues"
+    "url": "https://github.com/mistval/match-tags/issues"
   },
-  "homepage": "https://github.com/mistval/html_blocks#readme"
+  "homepage": "https://github.com/mistval/match-tags#readme"
 }
