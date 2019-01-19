@@ -1,6 +1,6 @@
 # match-tags
 
-Extract an HTML element and its children from a string. This can make it easier and more efficient to work with HTML parsing libraries. You can use this module to extract only the part of the page you care about, and have the parsing library parse only that.
+Extract an HTML element and its children from a string. This can make it more efficient to work with HTML parsing libraries like cheerio. You can use this module to extract only the part of the page you care about, and have the parsing library parse only that.
 
 ## Usage
 
@@ -54,6 +54,8 @@ This outputs the following:
   </div>
 ```
 
+You can also pass a third argument to the extract function, an index to begin the search from.
+
 ## About
 
-I use this for a couple of specific applications, so it's not necessarily tested in corner cases and with bad markup. If it's not working how you expect, feel free to open an issue in the Github repo.
+I use this for a couple of specific applications, so it's not necessarily tested in corner cases and with bad markup. If it's not working how you expect, feel free to open an issue in the GitHub repo.
